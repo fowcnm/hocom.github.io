@@ -1,0 +1,42 @@
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Glassmorphism effect */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    width: 100%;
+}
+
+.glass-container h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #00ff00;
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.5);
+}
+
+.glass-container p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-top: 10px;
+}
